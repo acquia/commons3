@@ -4,7 +4,7 @@ api = 2
 
 ; Modules
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.11"
+projects[views_bulk_operations][version] = "1.12"
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
@@ -60,7 +60,6 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.2"
 
 projects[tagging][subdir] = "contrib"
 projects[tagging][version] = "2.5"
@@ -73,7 +72,7 @@ Issue: http://drupal.org/node/777870
 projects[editablefields][patch][] = "http://drupal.org/files/issues/editablefields-removeFocus.patch"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "1.1"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.10"
@@ -91,8 +90,6 @@ libraries[getid3][download][type] = "get"
 libraries[getid3][destination] = "libraries"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fgetid3%2Ffiles%2FgetID3%2528%2529%25201.x%2F1.7.9%2F&ts=1320092815"
 libraries[getid3][directory_name] = "getid3"
-
-
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.10"
@@ -116,7 +113,6 @@ projects[invite][subdir] = "contrib"
 projects[invite][version] = "2.0-beta3"
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
@@ -204,10 +200,9 @@ projects[og_subgroups][subdir] = "contrib"
 projects[og_subgroups][version] = "1.0-beta3"
 
 projects[password_policy][subdir] = "contrib"
-projects[password_policy][version] = "1.0-beta1"
+projects[password_policy][version] = "1.1"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.5"
 
 projects[quant][download][type] = "git"
 projects[quant][download][url] = "http://git.drupal.org/project/quant.git"
@@ -266,10 +261,6 @@ projects[user_relationships][patch][] = "http://drupal.org/files/ur_alter_remove
 projects[user_relationships][patch][] = "http://drupal.org/files/issues/user_relationships_disable_notifications_0_0.patch"
 
 projects[user_terms][subdir] = "contrib"
-projects[user_terms][version] = "1.0"
-; User_terms patches in PATCHES.txt from Acquia Commons GitHub repo:
-; http://drupal.org/node/617088#comment-2901188
-projects[user_terms][patch][] = "http://drupal.org/files/issues/user_terms-freeTagging.patch"
 
 projects[userpoints][subdir] = "contrib"
 projects[userpoints][version] = "1.2"
@@ -285,7 +276,7 @@ projects[userpoints_user_picture][subdir] = "contrib"
 projects[userpoints_user_picture][version] = "1.2"
 
 projects[vertical_tabs][subdir] = "contrib"
-projects[vertical_tabs][version] = "1.0-rc1"
+projects[vertical_tabs][version] = "1.0-rc2"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
