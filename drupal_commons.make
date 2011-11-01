@@ -4,7 +4,6 @@ api = 2
 
 ; Modules
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.12"
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
@@ -84,7 +83,7 @@ projects[freelinking][subdir] = "contrib"
 projects[freelinking][version] = "1.10"
 
 projects[getid3][subdir] = "contrib"
-projects[getid3][version] = "1.4"
+
 
 libraries[getid3][download][type] = "get"
 libraries[getid3][destination] = "libraries"
