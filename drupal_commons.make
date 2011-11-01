@@ -222,6 +222,7 @@ projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.2"
 
 projects[token][subdir] = "contrib"
+projects[token][version] = "1.16"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
