@@ -330,6 +330,18 @@ projects[fbsmp][download][type] = "git"
 projects[fbsmp][download][url] = "http://git.drupal.org/project/fbsmp.git"
 projects[fbsmp][download][revision] = 6.x-2.x
 
+projects[digests][download][type] = "git"
+projects[digests][download][url] = "http://git.drupal.org/project/mailhandler.git"
+projects[digests][download][revision] = "6.x-1.x"
+projects[digests][type] = "module"
+projects[digests][subdir] = "contrib"
+
+projects[digests][download][type] = "git"
+projects[digests][download][url] = "http://git.drupal.org/project/mailcomment.git"
+projects[digests][download][revision] = "6.x-1.x"
+projects[digests][type] = "module"
+projects[digests][subdir] = "contrib"
+
 ; Modules no longer in use, to be removed in a future release:
 
 projects[homebox][subdir] = "contrib"
