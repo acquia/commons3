@@ -9,7 +9,24 @@ function commons_core_install() {
   
   // Set module weight
   commons_core_set_weight();
+  
+  commons_core_tune_vertical_tabs();
 }
+
+/**
+ * move group_event_detail and  group_node_form from vertical tabs to the top of the page
+ */
+function commons_core_tune_vertical_tabs() {
+  //
+  $vtabs = variable_get('vertical_tabs_forms', array());
+  $vtabs['event_node_form']['group_event_details'] = FALSE;
+  $vtabs['group_node_form']['og_subgroups'] = FALSE;
+  $vtabs['group_node_form']['og_options'] = FALSE;
+  $vtabs['group_node_form']['group_attributes'] = FALSE;
+  $vtabs['group_node_form']['group_promote_content'] = FALSE;
+  variable_set('vertical_tabs_forms', $vtabs);
+}
+
 
 /**
  * Add taxonomy to nodes
@@ -412,5 +429,13 @@ function commons_core_update_6015() {
   if ($theme == 'commons_origins') {
     drupal_install_modules(array('tidy_node_links'));
   }
+  return array();
+}
+
+/**
+ * Move event form on the top of the page, extract group form from vertical tabs
+ */
+function commons_core_update_6016() {
+  commons_core_tune_vertical_tabs();
   return array();
 }
