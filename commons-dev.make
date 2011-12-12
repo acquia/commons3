@@ -7,9 +7,9 @@
 core = 6.x
 api = 2
 
-projects[drupal][version] = "test-event2"
+projects[drupal][version] = "6.x-2.x"
 
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "git"
 projects[drupal_commons][download][url] = "http://git.drupal.org/project/commons.git"
-projects[drupal_commons][download][revision] = "6.x-2.x"
+projects[drupal_commons][download][revision] = "test-event2"
