@@ -18,7 +18,7 @@ projects[apachesolr][subdir] = "acquia/acquia_search"
 
 projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
-projects[acquia_search][version] = "1.5700"
+projects[acquia_search][version] = "1.5702"
 
 projects[ajax_load][version] = 1.x-dev
 projects[ajax_load][download][type] = "git"
@@ -100,7 +100,7 @@ projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.10"
 
 projects[flag][subdir] = "contrib"
-projects[flag][version] = "1.3"
+projects[flag][version] = "1.4"
 
 projects[freelinking][subdir] = "contrib"
 
@@ -277,7 +277,7 @@ projects[userpoints_user_picture][subdir] = "contrib"
 projects[userpoints_user_picture][version] = "1.2"
 ; http://drupal.org/node/1075668#comment-5926324
 projects[userpoints_user_picture][patch][] = "http://drupal.org/files/userpoints_user_picture_undefined_index_fix_1075668_7.patch"
- 
+
 projects[vertical_tabs][subdir] = "contrib"
 
 projects[views][subdir] = "contrib"
