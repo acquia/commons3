@@ -285,11 +285,8 @@ projects[views][subdir] = "contrib"
 ; http://drupal.org/node/402944#comment-4650020
 projects[views][patch][] = "http://drupal.org/files/issues/views-402944-31.patch"
 
-; The dev branch has a revised UI for determining cache criteria.
 projects[views_content_cache][subdir] = "contrib"
-projects[views_content_cache][download][type] = "git"
-projects[views_content_cache][download][url] = "http://git.drupal.org/project/views_content_cache.git"
-projects[views_content_cache][download][revision] = "35940a5de7e91782ec4363e8cd9bb0b5adfc50eb"
+projects[views_content_cache][version] = "2.3"
 
 projects[views_field_view][subdir] = "contrib"
 
