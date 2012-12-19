@@ -70,7 +70,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0"
+projects[context][version] = "3.1"
 
 ; Context patches in PATCHES.txt from Acquia Commons GitHub repo:
 
