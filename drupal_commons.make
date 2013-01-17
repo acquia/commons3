@@ -215,7 +215,7 @@ projects[pathauto][subdir] = "contrib"
 projects[quant][subdir] = "contrib"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.4"
+projects[rules][version] = "1.5"
 ; http://drupal.org/node/978620#comment-3763720
 projects[rules][patch][] = "http://drupal.org/files/issues/rules.rules_defaults_alter_0.patch"
 
