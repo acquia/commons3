@@ -13,5 +13,5 @@ projects[drupal][patch][] = "http://drupal.org/files/1564996_one_time_watchdog_m
 
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "file"
-projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.12.tar.gz"
+projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.13.tar.gz"
 

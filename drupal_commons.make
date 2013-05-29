@@ -12,8 +12,7 @@ projects[admin][version] = "2.0"
 projects[acquia_connector][subdir] = "acquia"
 
 projects[apachesolr][type] = "module"
-projects[apachesolr][download][type] = "git"
-projects[apachesolr][download][revision] = "6.x-1.x"
+projects[apachesolr][download][version] = "6.x-1.8"
 projects[apachesolr][subdir] = "acquia/acquia_search"
 
 projects[acquia_search][type] = "module"
@@ -82,10 +81,7 @@ projects[context_og][version] = "3.0"
 
 projects[date][subdir] = "contrib"
 
-projects[diff][version] = 2.x-dev
 projects[diff][subdir] = "contrib"
-projects[diff][download][type] = "git"
-projects[diff][download][revision] = "6.x-2.x"
 
 projects[editablefields][subdir] = "contrib"
 projects[editablefields][version] = "2.0"
@@ -97,10 +93,10 @@ projects[editablefields][patch][] = "http://drupal.org/files/issues/editablefiel
 projects[features][subdir] = "contrib"
 
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.10"
+projects[filefield][version] = "3.11"
 
 projects[flag][subdir] = "contrib"
-projects[flag][version] = "1.4"
+projects[flag][version] = "1.5"
 
 projects[freelinking][subdir] = "contrib"
 
@@ -128,7 +124,7 @@ projects[imagecache_profiles][subdir] = "contrib"
 projects[imagecache_profiles][version] = "1.3"
 
 projects[imagefield][subdir] = "contrib"
-projects[imagefield][version] = "3.10"
+projects[imagefield][version] = "3.11"
 
 projects[insert][subdir] = "contrib"
 
@@ -247,11 +243,8 @@ projects[user_badges][patch][] = "http://drupal.org/files/issues/user_badges-for
 ; http://drupal.org/node/986822#comment-4001216
 projects[user_badges][patch][] = "http://drupal.org/files/issues/user_badges-undefined-constant-986822.patch"
 
-projects[user_relationships][version] = 1.x-dev
+
 projects[user_relationships][subdir] = "contrib"
-projects[user_relationships][download][type] = "git"
-; UR's last release was ~1 year ago with some non-trivial commits since then.
-projects[user_relationships][download][revision] = "6.x-1.x"
 
 ; User_relationships patches in PATCHES.txt from Acquia Commons GitHub repo:
 ; http://drupal.org/node/1121038#comment-6198978
@@ -310,18 +303,14 @@ libraries[ckeditor][patch][] = "http://drupal.org/files/1337004-ckeditor-remove-
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.5"
 
-projects[activity_log][version] = 2.x-dev
-projects[activity_log][download][type] = "git"
-projects[activity_log][download][revision] = "6.x-2.x"
+projects[activity_log][version] = "6.x-2.0-beta2"
 projects[activity_log][type] = "module"
 projects[activity_log][subdir] = "contrib"
 
 ; http://drupal.org/node/1306252#comment-5412352
 projects[activity_log][patch][] = "http://drupal.org/files/1306252-activity_log_node_og_dupes-b.patch"
 
-projects[digests][version] = 1.x-dev
-projects[digests][download][type] = "git"
-projects[digests][download][revision] = "6.x-1.x"
+projects[digests][version] = "6.x-1.4"
 projects[digests][type] = "module"
 projects[digests][subdir] = "contrib"
 
