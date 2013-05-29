@@ -310,7 +310,7 @@ projects[activity_log][subdir] = "contrib"
 ; http://drupal.org/node/1306252#comment-5412352
 projects[activity_log][patch][] = "http://drupal.org/files/1306252-activity_log_node_og_dupes-b.patch"
 
-projects[digests][version] = "1.4"
+projects[digests][version] = "1.0"
 projects[digests][type] = "module"
 projects[digests][subdir] = "contrib"
 
