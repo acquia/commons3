@@ -12,7 +12,7 @@ projects[admin][version] = "2.0"
 projects[acquia_connector][subdir] = "acquia"
 
 projects[apachesolr][type] = "module"
-projects[apachesolr][download][version] = "6.x-1.8"
+projects[apachesolr][download][version] = "1.8"
 projects[apachesolr][subdir] = "acquia/acquia_search"
 
 projects[acquia_search][type] = "module"
@@ -303,14 +303,14 @@ libraries[ckeditor][patch][] = "http://drupal.org/files/1337004-ckeditor-remove-
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.5"
 
-projects[activity_log][version] = "6.x-2.0-beta2"
+projects[activity_log][version] = "2.0-beta2"
 projects[activity_log][type] = "module"
 projects[activity_log][subdir] = "contrib"
 
 ; http://drupal.org/node/1306252#comment-5412352
 projects[activity_log][patch][] = "http://drupal.org/files/1306252-activity_log_node_og_dupes-b.patch"
 
-projects[digests][version] = "6.x-1.4"
+projects[digests][version] = "1.4"
 projects[digests][type] = "module"
 projects[digests][subdir] = "contrib"
 
