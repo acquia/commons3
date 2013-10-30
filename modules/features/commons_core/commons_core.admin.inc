@@ -62,9 +62,9 @@ function commons_core_admin_settings() {
   
   $form['group_settings']['commons_email_selective_group'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Alert users when added to a selective group'),
+    '#title' => t('Alert users when added or removed from a selective group'),
     '#default_value' => variable_get('commons_email_selective_group', 1),
-    '#description' => t('If checked, an email alert will be sent to users that are added to groups that are marked as either invite-only or closed.'),
+    '#description' => t('If checked, an email alert will be sent to users that are added or removed from groups that are marked as either invite-only or closed.'),
   );
   
   $form['group_settings']['commons_group_admin_edit_comments'] = array(
