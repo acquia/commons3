@@ -10,6 +10,7 @@ projects[admin][version] = "2.0"
 ; Historically Commons placed Acquia connector in the Acquia subdirectory.
 ; Leaving it there to simplify the upgrade process.
 projects[acquia_connector][subdir] = "acquia"
+projects[acquia_connector][version] = "2.13"
 
 projects[apachesolr][type] = "module"
 projects[apachesolr][version] = "1.8"
@@ -19,9 +20,7 @@ projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
 projects[acquia_search][version] = "1.5702"
 
-projects[ajax_load][version] = 1.x-dev
-projects[ajax_load][download][type] = "git"
-projects[ajax_load][download][revision] = "8b0921252fcf599e7b15276bd815bcf81521eb27"
+projects[ajax_load][version] = 1.4
 projects[ajax_load][subdir] = "contrib"
 
 ; Commons Answers dependencies:
@@ -69,7 +68,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.1"
+projects[context][version] = "3.3"
 
 ; Context patches in PATCHES.txt from Acquia Commons GitHub repo:
 
@@ -151,6 +150,7 @@ projects[mimemail][subdir] = "contrib"
 ; Leaving it there to simplify the upgrade process.
 
 projects[mollom][subdir] = "acquia"
+projects[mollom][version] = "2.6"
 
 
 projects[notifications][subdir] = "contrib"
