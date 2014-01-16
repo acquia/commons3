@@ -7,10 +7,10 @@
 core = 6.x
 api = 2
 
-projects[drupal][version] = "6.29"
+projects[drupal][version] = "6.30"
 ; http://drupal.org/node/1564996#comment-5963056
 projects[drupal][patch][] = "http://drupal.org/files/1564996_one_time_watchdog_more_info-D6.patch"
 
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "file"
-projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.14.tar.gz"
+projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.15.tar.gz"

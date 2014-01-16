@@ -184,12 +184,8 @@ projects[og_aggregator][version] = "1.4"
 ; Does not apply to og_aggregator 1.4 but has been committed upstream.
 ; projects[og_aggregator][patch][] = "http://drupal.org/files/issues/og_aggregator-fix-wsod.patch
 
-; At time of release, there was a drupal.org issue getting new releases out
-; Therefore we're manually downloading the tarbar.
-; TODO: Use standard method of fetching when this issue is fixed.
 projects[og_features][subdir] = "contrib"
-projects[og_features][download][type] = "file"
-projects[og_features][download][url]  = "http://ftp.drupal.org/files/projects/og_features-6.x-1.4.tar.gz"
+projects[og_features][version] = "1.4"
 
 projects[og_invite_link][subdir] = "contrib"
 
