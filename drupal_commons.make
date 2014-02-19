@@ -338,9 +338,9 @@ projects[mailcomment][version] = "1.0"
 
 ; Modules no longer in use, to be removed in a future release:
 
-projects[homebox][subdir] = "contrib"
-projects[shoutbox][subdir] = "contrib"
-projects[image][subdir] = "contrib"
+;projects[homebox][subdir] = "contrib"
+;projects[shoutbox][subdir] = "contrib"
+;projects[image][subdir] = "contrib"
 
 ; Themes:
 
