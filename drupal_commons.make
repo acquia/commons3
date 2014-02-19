@@ -92,7 +92,7 @@ projects[editablefields][patch][] = "http://drupal.org/files/issues/editablefiel
 projects[features][subdir] = "contrib"
 
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.11"
+projects[filefield][version] = "3.12"
 
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "1.5"
@@ -218,7 +218,7 @@ projects[rules][patch][] = "http://drupal.org/files/issues/rules.rules_defaults_
 projects[strongarm][subdir] = "contrib"
 
 projects[tagadelic][subdir] = "contrib"
-projects[tagadelic][version] = "1.3"
+projects[tagadelic][version] = "1.5"
 
 projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.2"
