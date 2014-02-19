@@ -103,6 +103,7 @@ projects[getid3][subdir] = "contrib"
 
 
 libraries[getid3][download][type] = "get"
+libraries[getid3][type] = "libraries"
 libraries[getid3][destination] = "libraries"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.9.1/getid3-1.9.1-20110810.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fgetid3%2Ffiles%2FgetID3%2528%2529%25201.x%2F1.9.1%2F&ts=1320871534"
 libraries[getid3][directory_name] = "getid3"
@@ -134,6 +135,7 @@ projects[invite][version] = "2.0-beta3"
 projects[jquery_ui][subdir] = "contrib"
 
 libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][type] = "libraries"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
@@ -293,6 +295,7 @@ projects[wysiwyg][download][revision] = "ddfaf684a45eb2ba3e4f866e5e5e6e1c10c8c02
 projects[wysiwyg][subdir] = "contrib"
 
 libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][type] = "libraries"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
