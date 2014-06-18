@@ -12,13 +12,13 @@ projects[admin][version] = "2.0"
 projects[acquia_connector][subdir] = "acquia"
 projects[acquia_connector][version] = "2.15"
 
-projects[apachesolr][type] = "module"
-projects[apachesolr][version] = "1.8"
-projects[apachesolr][subdir] = "acquia/acquia_search"
-
 projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
 projects[acquia_search][version] = "1.5702"
+
+projects[apachesolr][type] = "module"
+projects[apachesolr][version] = "1.8"
+projects[apachesolr][subdir] = "acquia/acquia_search"
 
 projects[ajax_load][version] = 1.4
 projects[ajax_load][subdir] = "contrib"
