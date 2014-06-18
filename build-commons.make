@@ -7,11 +7,9 @@
 core = 6.x
 api = 2
 
-projects[drupal][version] = "6.31"
-; http://drupal.org/node/1564996#comment-5963056
-projects[drupal][patch][] = "http://drupal.org/files/1564996_one_time_watchdog_more_info-D6.patch"
+; Include the definition of how to build Drupal core directly, including patches.
+includes[] = "drupal-org-core.make"
 
 projects[drupal_commons][type] = "profile"
-projects[drupal_commons][download][type] = "git"
-projects[drupal_commons][download][url] = "http://git.drupal.org/project/commons.git"
-projects[drupal_commons][download][revision] = "6.x-2.x"
+projects[drupal_commons][download][type] = "file"
+projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.17.tar.gz"

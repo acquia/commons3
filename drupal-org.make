@@ -1,5 +1,5 @@
-core = 6.x
 api = 2
+core = 6.x
 
 ; Modules
 projects[views_bulk_operations][subdir] = "contrib"
