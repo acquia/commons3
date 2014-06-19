@@ -19,10 +19,6 @@ projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
 projects[acquia_search][version] = "1.5702"
 
-projects[apachesolr][type] = "module"
-projects[apachesolr][subdir] = "acquia/acquia_search"
-projects[apachesolr][version] = "1.8"
-
 projects[ajax_load][type] = "module"
 projects[ajax_load][subdir] = "contrib"
 projects[ajax_load][version] = 1.4
@@ -389,6 +385,10 @@ projects[mailhandler][version] = "1.11"
 projects[mailcomment][type] = "module"
 projects[mailcomment][subdir] = "contrib"
 projects[mailcomment][version] = "1.0"
+
+projects[apachesolr][type] = "module"
+projects[apachesolr][subdir] = "acquia/acquia_search"
+projects[apachesolr][version] = "1.8"
 
 ; Themes:
 projects[fusion][type] = "theme"
