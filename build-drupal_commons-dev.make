@@ -14,5 +14,5 @@ includes[] = "drupal-org-core.make"
 ; Due to legacy naming, we pull the drupal commons make file from another project 'drupal_commons'
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "git"
-projects[drupal_commons][download][url] = "http://git.drupal.org/project/drupal_commons.git"
+projects[drupal_commons][download][url] = "http://git.drupal.org/project/commons.git"
 projects[drupal_commons][download][branch] = "6.x-2.x"
