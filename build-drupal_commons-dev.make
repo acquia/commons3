@@ -7,7 +7,6 @@
 api = 2
 core = 6.x
 
-
 ; Include the definition of how to build Drupal core directly, including patches.
 includes[] = "drupal-org-core.make"
 

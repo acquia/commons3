@@ -12,4 +12,4 @@ includes[] = "drupal-org-core.make"
 
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "file"
-projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.18.tar.gz"
+projects[drupal_commons][download][url] = "http://ftp.drupal.org/files/projects/commons-6.x-2.19.tar.gz"

@@ -17,7 +17,7 @@ projects[acquia_connector][version] = "2.15"
 
 projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
-projects[acquia_search][version] = "1.5702"
+projects[acquia_search][version] = "1.5704"
 
 projects[ajax_load][type] = "module"
 projects[ajax_load][subdir] = "contrib"
@@ -111,7 +111,7 @@ projects[features][subdir] = "contrib"
 
 projects[filefield][type] = "module"
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.12"
+projects[filefield][version] = "3.13"
 
 projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
@@ -228,6 +228,7 @@ projects[og_subgroups][subdir] = "contrib"
 
 projects[password_policy][type] = "module"
 projects[password_policy][subdir] = "contrib"
+projects[password_policy][version] = "1.8"
 
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
