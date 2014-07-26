@@ -117,8 +117,16 @@ projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "1.5"
 
+; Freelinking isn't supported anymore and is disabled by default in commons now
+; Leaving for historic needs, please migrate away from this module!
+; See https://www.drupal.org/node/2308503 for more info.
+
 projects[freelinking][type] = "module"
 projects[freelinking][subdir] = "contrib"
+projects[freelinking][download][type] = "git"
+projects[freelinking][download][url] = "http://git.drupal.org/project/freelinking.git"
+projects[freelinking][download][branch] = "6.x-3.x"
+projects[freelinking][download][revision] = "0b0c126e"
 
 projects[getid3][type] = "module"
 projects[getid3][subdir] = "contrib"

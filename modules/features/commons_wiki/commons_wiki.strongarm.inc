@@ -90,43 +90,6 @@ function commons_wiki_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'freelinking_camelcase';
-  $strongarm->value = 0;
-
-  $export['freelinking_camelcase'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'freelinking_nodetype';
-  $strongarm->value = 'wiki';
-
-  $export['freelinking_nodetype'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'freelinking_notfound';
-  $strongarm->value = 'no access search';
-
-  $export['freelinking_notfound'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'freelinking_onceonly';
-  $strongarm->value = 0;
-
-  $export['freelinking_onceonly'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'freelinking_restriction';
-  $strongarm->value = array(
-    'wiki' => 'wiki',
-  );
-
-  $export['freelinking_restriction'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_wiki';
   $strongarm->value = array(
     0 => 'status',

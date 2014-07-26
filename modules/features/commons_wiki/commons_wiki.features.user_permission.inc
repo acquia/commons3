@@ -6,22 +6,6 @@
 function commons_wiki_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access freelinking list
-  $permissions['access freelinking list'] = array(
-    'name' => 'access freelinking list',
-    'roles' => array(
-      '0' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: administer freelinking
-  $permissions['administer freelinking'] = array(
-    'name' => 'administer freelinking',
-    'roles' => array(
-      '0' => 'site admin',
-    ),
-  );
-
   // Exported permission: create wiki content
   $permissions['create wiki content'] = array(
     'name' => 'create wiki content',
