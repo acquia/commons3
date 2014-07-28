@@ -126,7 +126,7 @@ projects[freelinking][subdir] = "contrib"
 projects[freelinking][download][type] = "git"
 projects[freelinking][download][url] = "http://git.drupal.org/project/freelinking.git"
 projects[freelinking][download][branch] = "6.x-3.x"
-projects[freelinking][download][revision] = "0b0c126e"
+projects[freelinking][download][revision] = "86788e5c"
 
 projects[getid3][type] = "module"
 projects[getid3][subdir] = "contrib"
