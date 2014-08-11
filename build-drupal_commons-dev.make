@@ -10,7 +10,6 @@ core = 6.x
 ; Include the definition of how to build Drupal core directly, including patches.
 includes[] = "drupal-org-core.make"
 
-; Due to legacy naming, we pull the drupal commons make file from another project 'drupal_commons'
 projects[drupal_commons][type] = "profile"
 projects[drupal_commons][download][type] = "git"
 projects[drupal_commons][download][url] = "http://git.drupal.org/project/commons.git"
