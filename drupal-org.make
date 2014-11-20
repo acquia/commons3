@@ -13,7 +13,7 @@ projects[admin][version] = "2.0"
 ; Leaving it there to simplify the upgrade process.
 projects[acquia_connector][type] = "module"
 projects[acquia_connector][subdir] = "acquia"
-projects[acquia_connector][version] = "2.15"
+projects[acquia_connector][version] = "2.16"
 
 projects[acquia_search][type] = "module"
 projects[acquia_search][subdir] = "acquia"
@@ -188,7 +188,7 @@ projects[mimemail][subdir] = "contrib"
 
 projects[mollom][type] = "module"
 projects[mollom][subdir] = "acquia"
-projects[mollom][version] = "2.10"
+projects[mollom][version] = "2.11"
 
 projects[notifications][type] = "module"
 projects[notifications][subdir] = "contrib"
@@ -236,7 +236,7 @@ projects[og_subgroups][subdir] = "contrib"
 
 projects[password_policy][type] = "module"
 projects[password_policy][subdir] = "contrib"
-projects[password_policy][version] = "1.8"
+projects[password_policy][version] = "1.9"
 
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
@@ -406,3 +406,4 @@ libraries[SolrPhpClient][destination] = "modules/acquia/acquia_search/apachesolr
 
 ; Themes:
 projects[fusion][type] = "theme"
+projects[fusion][version] = "1.14"
