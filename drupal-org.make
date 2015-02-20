@@ -324,7 +324,7 @@ projects[vertical_tabs][subdir] = "contrib"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.16"
+projects[views][version] = "2.18"
 
 ; http://drupal.org/node/402944#comment-4650020
 projects[views][patch][] = "http://drupal.org/files/issues/views-402944-31.patch"
