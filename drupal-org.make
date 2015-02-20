@@ -236,7 +236,7 @@ projects[og_subgroups][subdir] = "contrib"
 
 projects[password_policy][type] = "module"
 projects[password_policy][subdir] = "contrib"
-projects[password_policy][version] = "1.9"
+projects[password_policy][version] = "1.10"
 
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
